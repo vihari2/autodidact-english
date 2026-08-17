@@ -1,10 +1,10 @@
-# ⭐ Self-Taught English Framework
+# Self-Taught English Framework
 
 >  A simple, self-study system to move from A2 to B2 using free tools — **built around daily writing and speaking.**
 
 ---
 
-## ⭐ About
+## About
 
 I built this method to stop getting stuck in the "start-and-stop" study loop. Instead of just doing passive grammar exercises, this framework focuses on **active practice (speaking and writing)** to actually use what you learn.
 
@@ -12,14 +12,14 @@ Using this routine, I scored **B2 (53/100)** on the EF SET test with a **C1 read
 
 ---
 
-## ⭐ The Main Focus: Output First
+## The Main Focus: Output First
 
 * ✍️ **Writing:** Daily journaling + AI feedback (ChatGPT) to catch mistakes and learn natural phrasing.
 * 🎙️ **Speaking:** Solo Google Meet calls and conversation apps to practice expressing thoughts in present, past, and future tenses.
 
 ---
 
-## ⭐ The Tools
+## The Tools
 
 * **ChatGPT:** Instant corrections and natural rewrites for daily writing.
 * **Google Meet:** Recording solo practice sessions to build confidence.
@@ -28,7 +28,7 @@ Using this routine, I scored **B2 (53/100)** on the EF SET test with a **C1 read
 
 ---
 
-## ⭐ Quick Routine
+## Quick Routine
 
 1. ✍️ **Write:** Spend 10–15 minutes writing a daily journal entry; paste it into ChatGPT for feedback.
 2. 🎙️ **Speak:** Talk out loud for 5–10 minutes in a solo Meet call about your day, plans, or opinions.
@@ -37,7 +37,7 @@ Using this routine, I scored **B2 (53/100)** on the EF SET test with a **C1 read
 
 ---
 
-## ⭐ Proof of Concept (EF SET)
+## Proof of Concept (EF SET)
 
 * ⭐ **Overall:** B2 (53/100)
 * ⭐ **Reading:** C1 (64/100)
@@ -47,7 +47,7 @@ Using this routine, I scored **B2 (53/100)** on the EF SET test with a **C1 read
 
 ---
 
-## ⭐ Detailed Guides
+## Detailed Guides
 
 Check the `docs/` folder for specific steps:
 - ✍️ [Writing & AI Guide](docs/writing-guide.md)
