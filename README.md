@@ -14,8 +14,8 @@ Using this routine, I scored **B2 (53/100)** on the EF SET test with a **C1 read
 
 ## ⭐ The Main Focus: Output First
 
-* ✍️⭐ **Writing:** Daily journaling + AI feedback (ChatGPT) to catch mistakes and learn natural phrasing.
-* 🎙️⭐ **Speaking:** Solo Google Meet calls and conversation apps to practice expressing thoughts in present, past, and future tenses.
+* ✍️ **Writing:** Daily journaling + AI feedback (ChatGPT) to catch mistakes and learn natural phrasing.
+* 🎙️ **Speaking:** Solo Google Meet calls and conversation apps to practice expressing thoughts in present, past, and future tenses.
 
 ---
 
@@ -30,10 +30,10 @@ Using this routine, I scored **B2 (53/100)** on the EF SET test with a **C1 read
 
 ## ⭐ Quick Routine
 
-1. ✍️⭐ **Write:** Spend 10–15 minutes writing a daily journal entry; paste it into ChatGPT for feedback.
-2. 🎙️⭐ **Speak:** Talk out loud for 5–10 minutes in a solo Meet call about your day, plans, or opinions.
-3. 📚⭐ **Study:** Complete one short section of a B1/B2 coursebook.
-4. 🧠⭐ **Log:** Save interesting new vocabulary in Notion.
+1. ✍️ **Write:** Spend 10–15 minutes writing a daily journal entry; paste it into ChatGPT for feedback.
+2. 🎙️ **Speak:** Talk out loud for 5–10 minutes in a solo Meet call about your day, plans, or opinions.
+3. 📚 **Study:** Complete one short section of a B1/B2 coursebook.
+4. 🧠 **Log:** Save interesting new vocabulary in Notion.
 
 ---
 
@@ -50,11 +50,11 @@ Using this routine, I scored **B2 (53/100)** on the EF SET test with a **C1 read
 ## ⭐ Detailed Guides
 
 Check the `docs/` folder for specific steps:
-- ✍️⭐ [Writing & AI Guide](docs/writing-guide.md)
-- 🎙️⭐ [Solo Speaking Guide](docs/google-meet-guide.md)
-- 📚⭐ [Coursebooks List](docs/coursebooks.md)
-- 📖⭐ [Reading List](docs/reading-list.md)
-- 🧠⭐ [Notion Setup](docs/notion-setup.md)
+- ✍️ [Writing & AI Guide](docs/writing-guide.md)
+- 🎙️ [Solo Speaking Guide](docs/google-meet-guide.md)
+- 📚 [Coursebooks List](docs/coursebooks.md)
+- 📖 [Reading List](docs/reading-list.md)
+- 🧠 [Notion Setup](docs/notion-setup.md)
 
 ---
 
