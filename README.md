@@ -1,6 +1,6 @@
 # ⭐ Self-Taught English Framework
 
-> ⭐ A simple, self-study system to move from A2 to B2 using free tools — **built around daily writing and speaking.**
+>  A simple, self-study system to move from A2 to B2 using free tools — **built around daily writing and speaking.**
 
 ---
 
