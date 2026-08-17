@@ -38,6 +38,7 @@ Using this routine, I scored **B2 (53/100)** on the EF SET test with a **C1 read
 ---
 
 ## Proof of Concept (EF SET)
+17/08/2026
 
 * ⭐ **Overall:** B2 (53/100)
 * ⭐ **Reading:** C1 (64/100)
