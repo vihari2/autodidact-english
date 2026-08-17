@@ -18,7 +18,7 @@
 - Comic strips (Garfield, Calvin and Hobbes)
 - *Aru Shah and the End of Time* – Roshani Chokshi
 
-## B1 — current level, start here
+## B1 
 - *Harry Potter and the Philosopher's Stone* – J.K. Rowling 
 - *Paper Towns* – John Green
 - *The Fault in Our Stars* – John Green
