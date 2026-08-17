@@ -44,7 +44,7 @@
 - *A Tale of Two Cities* – Charles Dickens
 - *The Adventures of Sherlock Holmes* – Arthur Conan Doyle
 - *The Diary of Anne Frank*
-- *Jane Eyre* – Charlotte Brontë (one source places this at advanced-only)
+- *Jane Eyre* – Charlotte Brontë 
 - *Red Queen* – Victoria Aveyard
 - *Gone Girl* ("Lost") – Gillian Flynn
 
@@ -52,7 +52,7 @@
 - *Lolita* – Vladimir Nabokov
 - *The Handmaid's Tale* – Margaret Atwood
 - *Little Women* – Louisa May Alcott
-- *Mortal Instruments: City of Bones* (also listed here by another source)
+- *Mortal Instruments: City of Bones*
 
 ## Grammar/study supplements
 - *Practice Makes Perfect: English Conversation* – Jean Yates
