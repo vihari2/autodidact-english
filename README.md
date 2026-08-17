@@ -8,7 +8,6 @@
 
 I built this method to stop getting stuck in the "start-and-stop" study loop. Instead of just doing passive grammar exercises, this framework focuses on **active practice (speaking and writing)** to actually use what you learn.
 
-Using this routine, I scored **B2 (53/100)** on the EF SET test with a **C1 reading score**.
 
 ---
 
