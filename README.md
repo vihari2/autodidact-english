@@ -1,10 +1,10 @@
-# 🚀 Self-Taught English Language Framework
+# 🌟 Self-Taught English Language Framework
 
 > A practical, self-study methodology designed to build English fluency from intermediate (A2/B1) to independent upper-intermediate (B2+) using free digital tools, structured routines, and modular guides.
 
 ---
 
-## 🎯 About The Project
+## 🌟 About The Project
 
 This repository documents my personal self-taught framework for learning English. Instead of relying solely on traditional language schools, this system combines structured coursebook study with daily active output (speaking and writing) powered by modern tools like ChatGPT, Google Meet, and Notion.
 
@@ -12,7 +12,7 @@ Using this exact framework, I progressed from **A2 to B2 (53/100 on the EF SET e
 
 ---
 
-## 🛠️ The Method Stack
+## 🌟 The Method Stack
 
 This system integrates four main pillars to cover all core language skills (*Reading, Listening, Writing, Speaking*):
 
@@ -26,7 +26,7 @@ This system integrates four main pillars to cover all core language skills (*Rea
 
 ---
 
-## 📖 Detailed Guides & Resources
+## 🌟 Detailed Guides & Resources
 
 Explore the specific modules of this framework:
 
@@ -38,7 +38,7 @@ Explore the specific modules of this framework:
 
 ---
 
-## 🔄 Daily & Weekly Routine
+## 🌟 Daily & Weekly Routine
 
 ### 1. Grammar & Input (Coursebook + YouTube)
 * Follow one chapter at a time from a level-appropriate textbook (B1/B2).
@@ -59,7 +59,7 @@ Explore the specific modules of this framework:
 
 ---
 
-## 📊 Proof of Concept (EF SET Results)
+## 🌟 Proof of Concept (EF SET Results)
 
 * **Overall Score:** 53/100 — **B2 Upper Intermediate**
 * **Reading:** 64/100 (C1 Advanced)
@@ -69,7 +69,7 @@ Explore the specific modules of this framework:
 
 ---
 
-## 💡 How to Use This Repo
+## 🌟 How to Use This Repo
 
 1. **Fork or Clone:** Duplicate this repository to track your own journey.
 2. **Set Up Your Structure:** Create the `docs/` folder and populate your guides using the links above.
