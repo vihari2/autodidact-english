@@ -1,17 +1,17 @@
-# 🎙️ Google Meet Solo Speaking Guide
+# Google Meet Solo Speaking Guide
 
 This guide outlines how to use Google Meet for self-directed speaking practice to build fluency, confidence, and spontaneous sentence structure without the pressure of an audience.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 * Overcome hesitation and fear of speaking out loud.
 * Practice real-time sentence construction and vocabulary retrieval.
 * Record sessions to evaluate pronunciation, pacing, and recurring grammar errors.
 
 ---
 
-## 🛠️ Step-by-Step Setup
+## Step-by-Step Setup
 
 1. **Start a Call:**
    * Go to [meet.google.com](https://meet.google.com) and click **New Meeting ➔ Start an instant meeting**.
@@ -23,7 +23,7 @@ This guide outlines how to use Google Meet for self-directed speaking practice t
 
 ---
 
-## ⏱️ Recommended Routine (5–10 Minutes)
+## Recommended Routine (5–10 Minutes)
 
 * **Minute 1–2 (Warm-up):** Describe your immediate surroundings, what you did today, or how you are feeling.
 * **Minute 3–7 (Topic Focus):** Pick one prompt (from the list below) and speak continuously about it. Avoid long pauses—if you don't know a word, explain it using simpler English (*circumlocution*).
@@ -31,7 +31,7 @@ This guide outlines how to use Google Meet for self-directed speaking practice t
 
 ---
 
-## 💡 Speaking Topics & Prompts
+## Speaking Topics & Prompts
 
 ### 🟩 Beginner (A1–A2)
 * **Hobbies & Free Time:** What do you like to do on weekends? Why do you enjoy it?
@@ -56,12 +56,12 @@ This guide outlines how to use Google Meet for self-directed speaking practice t
 * **Abstract Concepts:** Define what "success" means to you today versus what it meant to you five years ago.
 
 ---
-### ⚡ Quick 2-Minute Warm-Up Prompts (Any Level)
+### Quick 2-Minute Warm-Up Prompts (Any Level)
 * **The "Object" Game:** Pick one random item on your desk and explain its history/use for 60 seconds without stopping.
 * **Storytelling:** Tell a story about a funny, strange, or awkward moment that happened to you in the past.
 * **Pros & Cons:** Pick a random topic (e.g., living in a big city) and list two pros and two cons out loud.
 
-## 📝 Syncing with Notion
+## Syncing with Notion
 After completing a session, add an entry to your **Google Meet** Notion table with:
 * **Date & Duration**
 * **Topic Covered**
