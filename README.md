@@ -31,8 +31,8 @@ I built this method to stop getting stuck in the "start-and-stop" study loop. In
 
 1. ✍️ **Write:** Spend 10–15 minutes writing a daily journal entry; paste it into ChatGPT for feedback.
 2. 🎙️ **Speak:** Talk out loud for 5–10 minutes in a solo Meet call about your day, plans, or opinions.
-3. 📚 **Study:** Complete one short section of a B1/B2 coursebook.
-4. 🧠 **Log:** Save interesting new vocabulary in Notion.
+3. 📚 **Study:** Complete one short section of a A1/A2/B1/B2.... coursebook.
+4. 🧠 **Flashcards:** Save interesting new vocabulary in Notion.
 
 ---
 
