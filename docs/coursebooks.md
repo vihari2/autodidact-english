@@ -74,6 +74,6 @@ Copy and paste these exact formulas into Google, replacing `[Book Name]` with th
 
 Instead of random search engines, try searching directly inside these legal digital repositories and open educational archives:
 
-* **[Internet Archive (archive.org):](https://archive.org)** Search for the book title. Many coursebooks are available to borrow digitally for free for 1 hour or 14 days.
-* **[Library Genesis / Anna’s Archive:](https://annas-archive.org)** Excellent index for finding academic textbooks, grammar guides, and self-study materials in PDF format.
-* **[Open Library:](https://openlibrary.org)** A project of the Internet Archive aiming to create one web page for every book ever published.
+* **[Internet Archive (archive.org):](https://archive.org)** 
+* **[Library Genesis / Anna’s Archive:](https://annas-archive.gl/)** 
+* **[Library Genesis:](https://libgen.bz/)** 
