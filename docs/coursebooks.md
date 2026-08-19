@@ -49,3 +49,31 @@ Published by **Cambridge University Press**, the *Complete IELTS* series integra
 * **B2:** *Life Upper-Intermediate*
 * **C1:** *Life Advanced*
   
+# 🔍 How to Find English Coursebooks Online
+
+Since copyrighted coursebooks cannot be hosted directly in this repository, you can use these search queries and strategies on Google or alternative search engines to find legal previews, library copies, or downloadable resources.
+
+---
+
+## 1. Direct File Search Prompts
+
+Copy and paste these exact formulas into Google, replacing `[Book Name]` with the title you are looking for (e.g., *English File Intermediate* or *English Grammar in Use*).
+
+* **PDF Search:**
+  > `[Book Name] filetype:pdf`
+* **Free Resource Sites:**
+  > `[Book Name] "download" OR "free pdf"`
+* **Internet Archive Search:**
+  > `site:archive.org [Book Name]`
+* **Specific Edition / Level Search:**
+  > `[Book Name] 4th edition filetype:pdf`
+
+---
+
+## 2. Recommended Free Digital Libraries
+
+Instead of random search engines, try searching directly inside these legal digital repositories and open educational archives:
+
+* **[Internet Archive (archive.org):](https://archive.org)** Search for the book title. Many coursebooks are available to borrow digitally for free for 1 hour or 14 days.
+* **[Library Genesis / Anna’s Archive:](https://annas-archive.org)** Excellent index for finding academic textbooks, grammar guides, and self-study materials in PDF format.
+* **[Open Library:](https://openlibrary.org)** A project of the Internet Archive aiming to create one web page for every book ever published.
