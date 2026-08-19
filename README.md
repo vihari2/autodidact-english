@@ -13,8 +13,16 @@ I built this method to stop getting stuck in the "start-and-stop" study loop. In
 
 ## The Main Focus: Output First
 
-* ✍️ **Writing:** Daily journaling + AI feedback (ChatGPT) to catch mistakes and learn natural phrasing.
-* 🎙️ **Speaking:** Solo Google Meet calls and conversation apps to practice expressing thoughts in present, past, and future tenses.
+
+<img src="https://i.imgur.com/x5DW0wQ.jpeg" alt="book" width="100" align="left" style="margin-right: 15px; margin-bottom: 5px;">
+
+✍️ **Writing:** Daily journaling + AI feedback (ChatGPT) to catch mistakes and learn natural phrasing.
+
+<br><br>
+
+<img src="https://i.imgur.com/OfFXj0y.jpeg" alt="meet" width="100" align="left" style="margin-right: 15px; margin-bottom: 5px;">
+
+🎙️ **Speaking:** Solo Google Meet calls and conversation apps to practice expressing thoughts in present, past, and future tenses.
 
 ---
 
