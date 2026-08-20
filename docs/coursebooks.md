@@ -77,3 +77,6 @@ Instead of random search engines, try searching directly inside these legal digi
 * **[Internet Archive (archive.org):](https://archive.org)** 
 * **[Library Genesis / Anna’s Archive:](https://annas-archive.gl/)** 
 * **[Library Genesis:](https://libgen.bz/)** 
+
+> **Tip:** You can print and bind these books, or simply read them on your computer as PDFs. 
+<img src="blob:https://imgur.com/a7aadba9-2644-4ad8-98e1-8177b4bfcd62" alt="Book" width="200">
