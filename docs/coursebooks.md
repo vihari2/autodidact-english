@@ -80,3 +80,11 @@ Instead of random search engines, try searching directly inside these legal digi
 
 > **Tip:** You can print and bind these books, or simply read them on your computer as PDFs. 
 <img src="https://i.imgur.com/R5o2R7H.jpeg" alt="Book" width="200">
+
+## 🎧 How to Find Listening Audios
+
+If you don't have the CD or official audio files for your coursebook, here is how to find them:
+
+* **YouTube Search:** Type the **book name + unit/chapter number + "audio"** directly into YouTube. Most popular coursebooks have complete audio tracks uploaded by teachers and students.
+* **Direct Downloads:** If it's not on YouTube, search online for direct MP3 downloads or check the publisher's companion website. 
+* **Popular Books:** Most widely used coursebooks (like *English File* or *Headway*) have all their audio tracks easily accessible online.
