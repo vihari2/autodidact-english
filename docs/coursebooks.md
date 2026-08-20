@@ -79,4 +79,4 @@ Instead of random search engines, try searching directly inside these legal digi
 * **[Library Genesis:](https://libgen.bz/)** 
 
 > **Tip:** You can print and bind these books, or simply read them on your computer as PDFs. 
-<img src="blob:https://imgur.com/a7aadba9-2644-4ad8-98e1-8177b4bfcd62" alt="Book" width="200">
+<img src="https://i.imgur.com/R5o2R7H.jpeg" alt="Book" width="200">
