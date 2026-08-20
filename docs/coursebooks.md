@@ -81,7 +81,7 @@ Instead of random search engines, try searching directly inside these legal digi
 > **Tip:** You can print and bind these books, or simply read them on your computer as PDFs. 
 <img src="https://i.imgur.com/R5o2R7H.jpeg" alt="Book" width="200">
 
-## 🎧 How to Find Listening Audios
+# 🎧 How to Find Coursebook Listening Audios
 
 If you don't have the CD or official audio files for your coursebook, here is how to find them:
 
