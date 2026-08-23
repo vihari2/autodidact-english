@@ -43,7 +43,22 @@ The *Complete IELTS* series integrates general language development with specifi
 * **Complete IELTS Bands 4–5 (CEFR B1 / Lower-Intermediate)**
 * **Complete IELTS Bands 5–6.5 (CEFR B2 / Intermediate – Upper-Intermediate)**
 * **Complete IELTS Bands 6.5–7.5 (CEFR C1 / Advanced)**
-  
+
+# 📚 How to Use Coursebooks for Self-Study
+
+When studying independently, coursebooks usually come in two main versions: **Student's Book** and **Teacher's Book**. Here is how to use both effectively:
+
+* **Student's Book:** This is your primary core material containing lesson structures, grammar explanations, reading texts, and exercises.
+* **Teacher's Book:** Serves as your **answer key and reference guide**. It includes answer keys, complete listening audio scripts, and additional explanations.
+
+### Self-Study Workflow
+1. Complete the lessons and exercises inside the **Student's Book**.
+2. Use the **Teacher's Book** after finishing a module to correct your answers and check audioscripts for any difficult listening passages.
+3. **AI Assistance (ChatGPT / Gemini):** If you don't have access to the Teacher's Book (or don't understand *why* an answer is wrong), paste your answers into ChatGPT or Gemini to get instant corrections and grammar explanations.
+   
+
+>  **Note:** Ensure your Teacher's Book edition includes the **Answer Key & Audioscripts** section rather than just classroom teaching instructions.
+
 # 🔍 How to Find English Coursebooks Online
 
 Since copyrighted coursebooks cannot be hosted directly in this repository, you can use these search queries and strategies on Google or alternative search engines to find legal previews, library copies, or downloadable resources.
