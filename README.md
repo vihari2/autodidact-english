@@ -1,59 +1,41 @@
-# Self-Taught English Framework
+# Independent English
 
->  A simple, self-study system to move from A2 to B2 using free tools — **built around daily writing and speaking.**
-
----
-
-## About
-
-I built this method to stop getting stuck in the "start-and-stop" study loop. Instead of just doing passive grammar exercises, this framework focuses on **active practice (speaking and writing)** to actually use what you learn.
-
+> A simple, output-first self-study system to transition from **A2 to B2** using free tools.
 
 ---
 
-## The Main Focus: Output First
-
-
-<img src="https://i.imgur.com/x5DW0wQ.jpeg" alt="book" width="100" align="left" style="margin-right: 15px; margin-bottom: 5px;">
-
-✍️ **Writing:** Daily journaling + AI feedback (ChatGPT) to catch mistakes and learn natural phrasing.
-
-<br><br>
-
-<img src="https://i.imgur.com/OfFXj0y.jpeg" alt="meet" width="100" align="left" style="margin-right: 15px; margin-bottom: 5px;">
-
-🎙️ **Speaking:** Solo Google Meet calls and conversation apps to practice expressing thoughts in present, past, and future tenses.
+## 📌 Overview
+Built to break out of the passive "start-and-stop" study loop. Instead of endless grammar drills, this framework focuses on **active output (writing and speaking)** to turn passive vocabulary into natural communication skills.
 
 ---
 
-## The Tools
-
-* **ChatGPT:** Instant corrections and natural rewrites for daily writing.
-* **Google Meet:** Recording solo practice sessions to build confidence.
-* **Coursebooks & YouTube:** Basic grammar structure and listening practice.
-* **Notion:** Storing new words, phrasal verbs, and expressions.
+## Core Concept: Output-First
+| Skill | Daily Practice | Core Tool & Purpose |
+| :--- | :--- | :--- |
+| **Writing** | Daily journaling | **ChatGPT** — Immediate feedback, error correction, and natural rewrites. |
+| **Speaking** | Monologues & active output | **Google Meet** — Recording solo sessions to build fluency across past, present, and future tenses. |
 
 ---
 
-## Quick Routine
+## Tool Stack
+* 🤖 **ChatGPT:** Instant corrections and idiomatic phrasing for daily logs.
+* 🎥 **Google Meet:** Solo calls to practice spoken expression without pressure.
+* 📚 **Coursebooks & YouTube:** Core structure, grammar foundations, and listening practice.
+* 🧠 **Notion:** Personal knowledge base for new vocabulary, phrasal verbs, and idioms.
 
-1. ✍️ **Write:** Spend 10–15 minutes writing a daily journal entry; paste it into ChatGPT for feedback.
-2. 🎙️ **Speak:** Talk out loud for 5–10 minutes in a solo Meet call about your day, plans, or opinions.
-3. 📚 **Study:** Complete one short section of a A1/A2/B1/B2.... coursebook.
-4. 🧠 **Flashcards:** Save interesting new vocabulary in Notion.
+---
+
+## Daily Routine
+1. **✍️ Write (10–15 mins):** Draft a journal entry and review it with ChatGPT.
+2. **🎙️ Speak (5–10 mins):** Host a solo Google Meet call to discuss your day, plans, or thoughts out loud.
+3. **📖 Study:** Complete one focused section from your coursebook (A1–B2).
+4. **🧠 Retain:** Save new words and expressions directly into Notion.
 
 ---
 
 ## Proof of Concept (EF SET)
-17/08/2026
-
-* ⭐ **Overall:** B2 (53/100)
-* ⭐ **Reading:** C1 (64/100)
-* ⭐ **Speaking:** B2 (55/100)
-* ⭐ **Writing:** B1 (49/100)
-* ⭐ **Listening:** B1 (43/100)
-
----
+* **Date:** 17/08/2026
+* **Score / Level:** *B2 Independent - 53/100)*
 
 ## Detailed Guides
 
