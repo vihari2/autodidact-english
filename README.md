@@ -12,7 +12,7 @@
 </p>
 
 <p>
-  Welcome to the <strong>Self-Taught English Framework</strong> repository! This is a practical, output-first self-study system designed to help language learners escape passive study habits and achieve functional fluency through daily active practice.
+ This is a practical, output-first self-study system designed to help language learners escape passive study habits and achieve functional fluency through daily active practice.
 </p>
 
 <p align="center">
