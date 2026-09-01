@@ -93,7 +93,7 @@ async function saveNameToSupabase() {
     if (!userId || !isSupabaseConfigured()) return;
 
     const nomeTag = document.getElementById('nome-txt');
-    const nome = nomeTag ? nomeTag.textContent.trim() || 'Seu Nome Aqui' : 'Seu Nome Aqui';
+    const nome = nomeTag ? nomeTag.textContent.trim() || 'Your Name Here' : 'Your Name Here';
     localStorage.setItem('nomeUsuario', nome);
 
     const client = getSupabaseClient();
@@ -144,12 +144,12 @@ async function signUpWithEmail() {
     const password = document.getElementById('password-input')?.value?.trim();
 
     if (!email || !password) {
-        setAuthStatus('Preencha e-mail e senha.', true);
+        setAuthStatus('Please enter email and password.', true);
         return;
     }
 
     if (!isSupabaseConfigured()) {
-        setAuthStatus('Configure o Supabase para ativar login multiusuário.', true);
+        setAuthStatus('Configure Supabase to enable multi-user login.', true);
         return;
     }
 
@@ -165,7 +165,7 @@ async function signUpWithEmail() {
         await ensureProfile(data.user);
     }
 
-    setAuthStatus('Conta criada com sucesso. Faça login agora.');
+    setAuthStatus('Account created successfully. Please sign in now.');
 }
 
 async function signInWithEmail() {
@@ -173,12 +173,12 @@ async function signInWithEmail() {
     const password = document.getElementById('password-input')?.value?.trim();
 
     if (!email || !password) {
-        setAuthStatus('Preencha e-mail e senha.', true);
+        setAuthStatus('Please enter email and password.', true);
         return;
     }
 
     if (!isSupabaseConfigured()) {
-        setAuthStatus('Configure o Supabase para ativar login multiusuário.', true);
+        setAuthStatus('Configure Supabase to enable multi-user login.', true);
         return;
     }
 
@@ -193,7 +193,7 @@ async function signInWithEmail() {
         localStorage.setItem('supabase_user_id', data.user.id);
         await ensureProfile(data.user);
         await loadProfileFromSupabase();
-        setAuthStatus(`Conectado como ${data.user.email}`);
+        setAuthStatus(`Connected as ${data.user.email}`);
         updateAuthUI();
         setTimeout(() => {
             isRedirecting = true;
@@ -202,7 +202,7 @@ async function signInWithEmail() {
         return;
     }
 
-    setAuthStatus('Não foi possível entrar.', true);
+    setAuthStatus('Could not sign in.', true);
 }
 
 async function signOut() {
@@ -231,7 +231,7 @@ function updateAuthUI() {
     const loggedIn = isSupabaseConfigured() && !!localStorage.getItem('supabase_user_id');
     logoutBtn.classList.toggle('hidden', !loggedIn);
     signupBtn.classList.toggle('hidden', loggedIn);
-    submitBtn.textContent = 'Entrar';
+    submitBtn.textContent = 'Enter';
 }
 
 function initAuth() {
@@ -268,7 +268,7 @@ function initAuth() {
     updateAuthUI();
 
     if (!isSupabaseConfigured()) {
-        setAuthStatus('Configure o Supabase para ativar login multiusuário.');
+        setAuthStatus('Configure Supabase to enable multi-user login.');
     }
 }
 
@@ -319,7 +319,7 @@ function fecharModal() {
 function salvarNome() {
     const nomeTag = document.getElementById('nome-txt');
     if (!nomeTag) return;
-    const nome = nomeTag.textContent.trim() || 'Seu Nome Aqui';
+    const nome = nomeTag.textContent.trim() || 'Your Name Here';
     localStorage.setItem('nomeUsuario', nome);
 
     if (isSupabaseConfigured()) {
@@ -330,19 +330,19 @@ function salvarNome() {
 // -- Bloco de Texto Genérico --
 function renderizarBlocoDeTexto(container, nomeBloco) {
     const textoSalvo = localStorage.getItem('notas_' + nomeBloco) || '';
-    container.innerHTML = `<textarea id="modal-texto" placeholder="Escreva suas anotações aqui...">${textoSalvo}</textarea>`;
+    container.innerHTML = `<textarea id="modal-texto" placeholder="Write your notes here...">${textoSalvo}</textarea>`;
 }
 
 // -- Flashcards --
 function renderizarTabelaFlashcards(container) {
     container.innerHTML = `
-        <button class="btn-adicionar-linha" onclick="adicionarNovaPalavra()">+ Nova Palavra</button>
+        <button class="btn-adicionar-linha" onclick="adicionarNovaPalavra()">+ New Word</button>
         <table class="tabela-meet" style="margin-top: 15px;">
             <thead>
                 <tr>
-                    <th>Palavra</th>
-                    <th>Categoria</th>
-                    <th>Tradução</th>
+                    <th>Word</th>
+                    <th>Category</th>
+                    <th>Meaning</th>
                     <th></th>
                 </tr>
             </thead>
@@ -363,7 +363,7 @@ function carregarFlashcardsSalvos() {
             <tr>
                 <td><input type="text" class="input-meet" value="${item.palavra}" onchange="salvarEdicaoFlashcard(${index}, 'palavra', this.value)" placeholder="Ex: blood"></td>
                 <td><input type="text" class="input-meet" value="${item.categoria}" onchange="salvarEdicaoFlashcard(${index}, 'categoria', this.value)" placeholder="Ex: Vocabulary"></td>
-                <td><input type="text" class="input-meet" value="${item.traducao}" onchange="salvarEdicaoFlashcard(${index}, 'traducao', this.value)" placeholder="Ex: sangue"></td>
+                <td><input type="text" class="input-meet" value="${item.traducao}" onchange="salvarEdicaoFlashcard(${index}, 'traducao', this.value)" placeholder="Ex: blood"></td>
                 <td><button class="btn-remover" onclick="removerFlashcard(${index})">X</button></td>
             </tr>
         `;
@@ -420,7 +420,7 @@ function renderizarOtherResources(container) {
 function renderizarGoogleMeet(container) {
     container.innerHTML = `
         <div style="max-height: 500px; overflow-y: auto; padding-right: 5px;">
-            <h4 style="margin: 0 0 10px 0; color: #555;">Sessões do Meet</h4>
+            <h4 style="margin: 0 0 10px 0; color: #555;">Meet Sessions</h4>
             <button class="btn-adicionar-linha" onclick="adicionarLinhaMeet()">+ New Session</button>
             <table class="tabela-meet" style="margin-bottom: 20px;">
                 <thead>
@@ -439,15 +439,15 @@ function renderizarGoogleMeet(container) {
             <hr style="border: none; border-top: 2px solid #eaeaea; margin: 25px 0 20px 0;">
 
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-                <h4 style="margin: 0; color: #555;">Diário de Observações</h4>
-                <button class="btn-adicionar-linha" onclick="adicionarNotaMeet()" style="margin: 0;">+ Nova Nota</button>
+                <h4 style="margin: 0; color: #555;">Observation Journal</h4>
+                <button class="btn-adicionar-linha" onclick="adicionarNotaMeet()" style="margin: 0;">+ New Note</button>
             </div>
             
             <table class="tabela-meet">
                 <thead>
                     <tr>
-                        <th style="width: 25%;">Data</th>
-                        <th>Observação / Anotação</th>
+                        <th style="width: 25%;">Date</th>
+                        <th>Observation / Note</th>
                         <th style="width: 10%;"></th>
                     </tr>
                 </thead>
@@ -470,7 +470,7 @@ function carregarMeetSalvos() {
     sessoes.forEach((item, index) => {
         corpoTabela.innerHTML += `
             <tr>
-                <td><input type="text" class="input-meet" value="${item.name}" onchange="salvarEdicaoMeet(${index}, 'name', this.value)" placeholder="Sessão 1"></td>
+                <td><input type="text" class="input-meet" value="${item.name}" onchange="salvarEdicaoMeet(${index}, 'name', this.value)" placeholder="Session 1"></td>
                 <td><input type="date" class="input-meet" value="${item.date}" onchange="salvarEdicaoMeet(${index}, 'date', this.value)"></td>
                 <td>
                     <select class="input-meet" onchange="salvarEdicaoMeet(${index}, 'status', this.value)">
@@ -479,7 +479,7 @@ function carregarMeetSalvos() {
                         <option value="Done" ${item.status === 'Done' ? 'selected' : ''}>Done</option>
                     </select>
                 </td>
-                <td><input type="text" class="input-meet" value="${item.topic}" onchange="salvarEdicaoMeet(${index}, 'topic', this.value)" placeholder="Tópico..."></td>
+                <td><input type="text" class="input-meet" value="${item.topic}" onchange="salvarEdicaoMeet(${index}, 'topic', this.value)" placeholder="Topic..."></td>
                 <td><button class="btn-remover" onclick="removerMeet(${index})">X</button></td>
             </tr>
         `;
@@ -516,7 +516,7 @@ function carregarNotasMeetSalvas() {
         corpoTabelaNotas.innerHTML += `
             <tr>
                 <td><input type="date" class="input-meet" value="${item.data}" onchange="salvarEdicaoNotaMeet(${index}, 'data', this.value)"></td>
-                <td><input type="text" class="input-meet" value="${item.texto}" onchange="salvarEdicaoNotaMeet(${index}, 'texto', this.value)" placeholder="Escreva sua observação aqui..."></td>
+                <td><input type="text" class="input-meet" value="${item.texto}" onchange="salvarEdicaoNotaMeet(${index}, 'texto', this.value)" placeholder="Write your observation here..."></td>
                 <td><button class="btn-remover" onclick="removerNotaMeet(${index})">X</button></td>
             </tr>
         `;
@@ -548,12 +548,12 @@ function removerNotaMeet(index) {
 function renderizarWritingJournal(container) {
     container.innerHTML = `
         <div style="max-height: 450px; overflow-y: auto; padding-right: 5px;">
-            <button class="btn-adicionar-linha" onclick="adicionarRegistroJournal()">+ Registrar Dia</button>
+            <button class="btn-adicionar-linha" onclick="adicionarRegistroJournal()">+ Add Day</button>
             <table class="tabela-meet" style="margin-top: 15px;">
                 <thead>
                     <tr>
-                        <th style="width: 40%;">Data</th>
-                        <th>Escreveu no Diário?</th>
+                        <th style="width: 40%;">Date</th>
+                        <th>Wrote in the journal?</th>
                         <th style="width: 10%;"></th>
                     </tr>
                 </thead>
@@ -577,8 +577,8 @@ function carregarJournalSalvo() {
                 <td><input type="date" class="input-meet" value="${item.data}" onchange="salvarEdicaoJournal(${index}, 'data', this.value)"></td>
                 <td>
                     <select class="input-meet" onchange="salvarEdicaoJournal(${index}, 'feito', this.value)">
-                        <option value="Sim" ${item.feito === 'Sim' ? 'selected' : ''}>✅ Sim, escrevi</option>
-                        <option value="Não" ${item.feito === 'Não' ? 'selected' : ''}>❌ Não escrevi</option>
+                        <option value="Sim" ${item.feito === 'Sim' ? 'selected' : ''}>✅ Yes, I wrote</option>
+                        <option value="Não" ${item.feito === 'Não' ? 'selected' : ''}>❌ No, I did not write</option>
                     </select>
                 </td>
                 <td><button class="btn-remover" onclick="removerJournal(${index})">X</button></td>
@@ -612,13 +612,13 @@ function removerJournal(index) {
 function renderizarCoursebook(container) {
     container.innerHTML = `
         <div style="max-height: 450px; overflow-y: auto; padding-right: 5px;">
-            <button class="btn-adicionar-linha" onclick="adicionarLivroCoursebook()">+ Adicionar Livro</button>
+            <button class="btn-adicionar-linha" onclick="adicionarLivroCoursebook()">+ Add Book</button>
             <table class="tabela-meet" style="margin-top: 15px;">
                 <thead>
                     <tr>
-                        <th style="width: 40%;">Nome do Livro</th>
-                        <th style="width: 25%;">Pág/Cap</th>
-                        <th style="width: 25%;">Data</th>
+                        <th style="width: 40%;">Book Name</th>
+                        <th style="width: 25%;">Page/Chapter</th>
+                        <th style="width: 25%;">Date</th>
                         <th style="width: 10%;"></th>
                     </tr>
                 </thead>
@@ -677,7 +677,7 @@ function loadProfileData() {
     const nomeSalvo = localStorage.getItem('nomeUsuario');
     const nomeTxt = document.getElementById('nome-txt');
     if (nomeTxt) {
-        nomeTxt.textContent = nomeSalvo || 'Seu Nome Aqui';
+        nomeTxt.textContent = nomeSalvo || 'Your Name Here';
     }
 
     const fotoSalva = localStorage.getItem('fotoPerfilCustom');

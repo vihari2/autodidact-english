@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Meu Dashboard</title>
+    <title>Login - Study Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="auth-panel">
         <div class="auth-box">
-            <h3>Entrar</h3>
+            <h3>Sign In</h3>
             <form id="auth-form" class="auth-form">
-                <input id="email-input" type="email" placeholder="seu@email.com" required>
-                <input id="password-input" type="password" placeholder="Senha" required>
+                <input id="email-input" type="email" placeholder="your@email.com" required>
+                <input id="password-input" type="password" placeholder="Password" required>
                 <div class="auth-actions">
-                    <button type="submit" id="auth-submit">Entrar</button>
-                    <button type="button" id="auth-signup" class="secondary" onclick="signUpWithEmail()">Criar conta</button>
-                    <button type="button" id="auth-logout" class="danger hidden" onclick="signOut()">Sair</button>
+                    <button type="submit" id="auth-submit">Enter</button>
+                    <button type="button" id="auth-signup" class="secondary" onclick="signUpWithEmail()">Create account</button>
+                    <button type="button" id="auth-logout" class="danger hidden" onclick="signOut()">Sign out</button>
                 </div>
             </form>
             <p style="font-size: 0.85em; color: #666; text-align: center; margin-top: 15px;">
-                💡 Se não tiver uma conta, preencha o email e senha e clique em <strong>"Criar conta"</strong>
+                💡 If you do not have an account, enter your email and password and click <strong>"Create account"</strong>
             </p>
             <p id="auth-status" class="auth-status"></p>
         </div>

@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Dashboard de Estudos</title>
+    <title>Study Dashboard</title>
     <!-- Conectando o arquivo de design (CSS) -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div style="position: absolute; top: 15px; right: 15px;">
-        <button id="logout-btn" onclick="signOut()" style="padding: 8px 15px; background-color: #dc2626; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 0.9em;">Sair</button>
+        <button id="logout-btn" onclick="signOut()" style="padding: 8px 15px; background-color: #dc2626; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 0.9em;">Sign out</button>
     </div>
 
     <div class="bento-grid">
@@ -25,8 +25,8 @@
                 title="Clique para mudar a foto">
 
             <div style="text-align: left; width: 100%;">
-                <p style="margin: 0; font-size: 0.8em; color: #666;">Bem-vindo(a),</p>
-                <div contenteditable="true" id="nome-txt" class="nome-usuario" onblur="salvarNome()">Seu Nome Aqui</div>
+                <p style="margin: 0; font-size: 0.8em; color: #666;">Welcome,</p>
+                <div contenteditable="true" id="nome-txt" class="nome-usuario" onblur="salvarNome()">Your Name Here</div>
             </div>
         </div>
 
@@ -59,7 +59,7 @@
             <!-- Esta div vai receber o texto ou a tabela dinamicamente -->
             <div id="modal-conteudo"></div>
 
-            <button class="btn-fechar" onclick="fecharModal()">Fechar Janela</button>
+            <button class="btn-fechar" onclick="fecharModal()">Fechar</button>
         </div>
     </div>
 
