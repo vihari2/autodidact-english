@@ -165,7 +165,7 @@ async function signUpWithEmail() {
         await ensureProfile(data.user);
     }
 
-    setAuthStatus('Account created successfully. Please sign in now.');
+    setAuthStatus('Account created. Check your email to confirm your registration, then sign in.');
 }
 
 async function signInWithEmail() {

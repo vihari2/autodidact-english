@@ -55,7 +55,7 @@
   <li><strong>ChatGPT:</strong> Instant corrections and natural rewrites for daily writing.</li>
   <li><strong>Google Meet:</strong> Recording solo practice sessions to build confidence.</li>
   <li><strong>Coursebooks &amp; YouTube:</strong> Basic grammar structure and listening practice.</li>
-  <li><strong>Local notes &amp; flashcards:</strong> Tracking vocabulary, journal entries, and study progress directly in the app.</li>
+  <li><strong>Local notes &amp; flashcards:</strong> Tracking vocabulary, journal entries, and study progress directly in the website.</li>
 </ul>
 
 <h2 id="quick-routine">Quick Routine</h2>
