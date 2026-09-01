@@ -15,6 +15,10 @@
   Welcome to the <strong>Self-Taught English Framework</strong> repository! This is a practical, output-first self-study system designed to help language learners escape passive study habits and achieve functional fluency through daily active practice.
 </p>
 
+<p align="center">
+  <strong>Live demo:</strong> <a href="https://vihari2.github.io/autodidact-english/">https://vihari2.github.io/autodidact-english/</a>
+</p>
+
 <h2>What is this Framework?</h2>
 
 <p>
@@ -51,7 +55,7 @@
   <li><strong>ChatGPT:</strong> Instant corrections and natural rewrites for daily writing.</li>
   <li><strong>Google Meet:</strong> Recording solo practice sessions to build confidence.</li>
   <li><strong>Coursebooks &amp; YouTube:</strong> Basic grammar structure and listening practice.</li>
-  <li><strong>Notion:</strong> Storing new words, phrasal verbs, and expressions.</li>
+  <li><strong>Local notes &amp; flashcards:</strong> Tracking vocabulary, journal entries, and study progress directly in the app.</li>
 </ul>
 
 <h2 id="quick-routine">Quick Routine</h2>
@@ -60,7 +64,7 @@
   <li>✍️ <strong>Write:</strong> Spend 10–15 minutes writing a daily journal entry; paste it into ChatGPT for feedback.</li>
   <li>🎙️ <strong>Speak:</strong> Talk out loud for 5–10 minutes in a solo Meet call about your day, plans, or opinions.</li>
   <li>📚 <strong>Study:</strong> Complete one short section of an A1/A2/B1/B2 coursebook.</li>
-  <li>🧠 <strong>Flashcards:</strong> Save interesting new vocabulary in Notion.</li>
+  <li>🧠 <strong>Flashcards:</strong> Save new vocabulary and review it in the dashboard.</li>
 </ol>
 
 <h2 id="proof-of-concept-ef-set">Proof of Concept (EF SET)</h2>
@@ -75,10 +79,9 @@
 <p>Check the <code>docs/</code> folder for specific steps:</p>
 <ul>
   <li>✍️ <a href="docs/writing-guide.md">Writing &amp; AI Guide</a></li>
-  <li>🎙️ <a href="docs/google-meet-guide.md">Solo Speaking Guide</a></li>
+  <li>🎙️ <a href="docs/speaking-google-meet.md">Solo Speaking Guide</a></li>
   <li>📚 <a href="docs/coursebooks.md">Coursebooks List</a></li>
-  <li>📖 <a href="docs/reading-list.md">Reading List</a></li>
-  <li>🧠 <a href="docs/notion-setup.md">Notion Setup</a></li>
+  <li>📖 <a href="docs/other-resources.md">Other Learning Resources</a></li>
 </ul>
 
 <hr>

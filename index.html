@@ -1,72 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Dashboard de Estudos</title>
-    <!-- Conectando o arquivo de design (CSS) -->
+    <title>Login - Meu Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div style="position: absolute; top: 15px; right: 15px;">
-        <button id="logout-btn" onclick="signOut()" style="padding: 8px 15px; background-color: #dc2626; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 0.9em;">Sair</button>
-    </div>
-
-    <div class="bento-grid">
-        <div class="card flashcards" onclick="abrirAnotacao('Flashcards')">
-            🃏<br>Flashcards
-        </div>
-
-        <div class="card profile">
-            <input type="file" id="upload-foto" accept="image/*" style="display: none;">
-            <img src="https://ui-avatars.com/api/?name=User&background=random" id="foto-img" class="foto-perfil"
-                title="Clique para mudar a foto">
-
-            <div style="text-align: left; width: 100%;">
-                <p style="margin: 0; font-size: 0.8em; color: #666;">Bem-vindo(a),</p>
-                <div contenteditable="true" id="nome-txt" class="nome-usuario" onblur="salvarNome()">Seu Nome Aqui</div>
-            </div>
-        </div>
-
-        <div class="card meet" onclick="abrirAnotacao('Google Meet')">
-            📹<br>Google Meet<br>Anotações
-        </div>
-
-        <div class="card coursebook" onclick="abrirAnotacao('My Coursebook')">
-            📚<br>My Coursebook
-        </div>
-
-        <div class="card other" onclick="abrirAnotacao('Other Resources')">
-            🧩<br>Other<br>Resources
-        </div>
-        <div class="card foto-gato-card">
-            <input type="file" id="upload-gato" accept="image/*" style="display: none;">
-            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=500&q=80"
-                id="img-gato" class="gato-estilo" title="Clique para trocar a foto do gato">
-        </div>
-        <div class="card journal" onclick="abrirAnotacao('Writing Journal')">
-            ✍️<br>Writing Journal
+    <div class="auth-panel">
+        <div class="auth-box">
+            <h3>Entrar</h3>
+            <form id="auth-form" class="auth-form">
+                <input id="email-input" type="email" placeholder="seu@email.com" required>
+                <input id="password-input" type="password" placeholder="Senha" required>
+                <div class="auth-actions">
+                    <button type="submit" id="auth-submit">Entrar</button>
+                    <button type="button" id="auth-signup" class="secondary" onclick="signUpWithEmail()">Criar conta</button>
+                    <button type="button" id="auth-logout" class="danger hidden" onclick="signOut()">Sair</button>
+                </div>
+            </form>
+            <p style="font-size: 0.85em; color: #666; text-align: center; margin-top: 15px;">
+                💡 Se não tiver uma conta, preencha o email e senha e clique em <strong>"Criar conta"</strong>
+            </p>
+            <p id="auth-status" class="auth-status"></p>
         </div>
     </div>
 
-    <!-- Janela Flutuante de Anotações -->
-    <div class="modal-overlay" id="modal">
-        <div class="modal-content">
-            <h2 id="modal-titulo">Título</h2>
-
-            <!-- Esta div vai receber o texto ou a tabela dinamicamente -->
-            <div id="modal-conteudo"></div>
-
-            <button class="btn-fechar" onclick="fecharModal()">Fechar Janela</button>
-        </div>
-    </div>
-
-    <!-- Supabase -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <!-- Conectando o arquivo de lógica (JavaScript) -->
     <script src="script.js"></script>
 </body>
-
 </html>

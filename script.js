@@ -197,7 +197,7 @@ async function signInWithEmail() {
         updateAuthUI();
         setTimeout(() => {
             isRedirecting = true;
-            window.location.href = 'index.html';
+            window.location.href = 'dashboard.html';
         }, 1500);
         return;
     }
@@ -217,7 +217,7 @@ async function signOut() {
     
     setTimeout(() => {
         isRedirecting = true;
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
     }, 300);
 }
 
@@ -694,18 +694,18 @@ function loadProfileData() {
 function redirectIfNeeded() {
     if (isRedirecting) return;
     
-    const isLoginPage = window.location.pathname.endsWith('login.html');
+    const isLoginPage = window.location.pathname.endsWith('index.html');
     const isLoggedIn = !!localStorage.getItem('supabase_user_id');
 
     if (!isLoginPage && !isLoggedIn) {
         isRedirecting = true;
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
         return;
     }
 
     if (isLoginPage && isLoggedIn) {
         isRedirecting = true;
-        window.location.href = 'index.html';
+        window.location.href = 'dashboard.html';
     }
 }
 
