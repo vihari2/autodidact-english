@@ -49,14 +49,14 @@
 <h2 id="the-main-focus-output-first">The Main Focus: Output First</h2>
 
 <ul>
-  <li>✍️ <strong>Writing:</strong> Daily journaling + AI feedback to catch mistakes and learn natural phrasing.</li>
+  <li>✍️ <strong>Writing:</strong> Daily journaling + AI feedback (ChatGPT) to catch mistakes and learn natural phrasing.</li>
   <li>🎙️ <strong>Speaking:</strong> Solo Google Meet calls and conversation apps to practice expressing thoughts in present, past, and future tenses.</li>
 </ul>
 
 <h2 id="the-tools">The Tools</h2>
 
 <ul>
-  <li><strong>AI (e.g. ChatGPT):</strong> Instant corrections and natural rewrites for journal entries, plus a check on how the day's practice correlates with the coursebook.</li>
+  <li><strong>ChatGPT:</strong> Instant corrections and natural rewrites for daily writing.</li>
   <li><strong>Google Meet:</strong> Recording solo practice sessions to build confidence.</li>
   <li><strong>Coursebooks &amp; YouTube:</strong> Basic grammar structure and listening practice.</li>
   <li><strong>Local notes &amp; flashcards:</strong> Tracking vocabulary, journal entries, and study progress directly in the website.</li>
@@ -65,16 +65,11 @@
 <h2 id="quick-routine">Quick Routine</h2>
 
 <ol>
-  <li>📚 <strong>Coursebook:</strong> Complete one short section of an A1/A2/B1/B2 coursebook.</li>
-  <li>🧠 <strong>Flashcards:</strong> Save and review the new vocabulary from that section.</li>
-  <li>🎙️ <strong>Speak</strong> <em>or</em> ✍️ <strong>Journal:</strong> Either talk out loud for 5–10 minutes in a solo Meet call, <strong>or</strong> write a journal entry, they don't need to happen on the same day.</li>
-  <li>🤖 <strong>AI check:</strong> Paste the journal entry into an AI for feedback, and to check how it correlates with what you studied in the coursebook.</li>
-  <li>🔁 Move on to the next coursebook section the next day.</li>
+  <li>✍️ <strong>Write:</strong> Spend 10–15 minutes writing a daily journal entry; paste it into ChatGPT for feedback.</li>
+  <li>🎙️ <strong>Speak:</strong> Talk out loud for 5–10 minutes in a solo Meet call about your day, plans, or opinions.</li>
+  <li>📚 <strong>Study:</strong> Complete one short section of an A1/A2/B1/B2 coursebook.</li>
+  <li>🧠 <strong>Flashcards:</strong> Save new vocabulary and review it in the dashboard.</li>
 </ol>
-
-<p align="center">
-  <img src="imagens/flowchart.png" alt="Routine Flowchart" style="max-width: 600px;">
-</p>
 
 <h2 id="proof-of-concept-ef-set">Proof of Concept (EF SET)</h2>
 
@@ -87,10 +82,10 @@
 
 <p>Check the <code>please-read/</code> folder for specific steps:</p>
 <ul>
-  <li>✍️ <a href="docs/writing-guide.md">Writing &amp; AI Guide</a></li>
-  <li>🎙️ <a href="docs/speaking-google-meet.md">Solo Speaking Guide</a></li>
-  <li>📚 <a href="docs/coursebooks.md">Coursebooks List</a></li>
-  <li>📖 <a href="docs/other-resources.md">Other Learning Resources</a></li>
+  <li>✍️ <a href="please-read/writing-guide.md">Writing &amp; AI Guide</a></li>
+  <li>🎙️ <a href="please-read/speaking-google-meet.md">Solo Speaking Guide</a></li>
+  <li>📚 <a href="please-read/coursebooks.md">Coursebooks List</a></li>
+  <li>📖 <a href="please-read/other-resources.md">Other Learning Resources</a></li>
 </ul>
 
 <hr>
@@ -98,7 +93,7 @@
 <h2 id="license">License</h2>
 
 <p>
-  This project is open-source and created by <a href="https://github.com/vihari2">vihari2</a>.
+  This project is open-source and create by <a href="https://github.com/vihari2">vihari2</a>.
 </p>
 
 <br>

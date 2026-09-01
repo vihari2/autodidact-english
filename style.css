@@ -32,6 +32,10 @@ body {
     font-weight: 600;
 }
 
+.dev-banner.hidden {
+    display: none;
+}
+
 .dev-banner a:hover {
     text-decoration: underline;
 }

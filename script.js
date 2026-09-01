@@ -276,8 +276,23 @@ window.signUpWithEmail = signUpWithEmail;
 window.signInWithEmail = signInWithEmail;
 window.signOut = signOut;
 
+function hideDevBanner() {
+    const banner = document.querySelector('.dev-banner');
+    if (banner) {
+        banner.classList.add('hidden');
+    }
+}
+
+function showDevBanner() {
+    const banner = document.querySelector('.dev-banner');
+    if (banner) {
+        banner.classList.remove('hidden');
+    }
+}
+
 function abrirAnotacao(nomeBloco) {
     blocoAtual = nomeBloco;
+    hideDevBanner();
     document.getElementById('modal-titulo').innerText = nomeBloco;
     
     const areaConteudo = document.getElementById('modal-conteudo');
@@ -314,6 +329,7 @@ function fecharModal() {
     }
     
     document.getElementById('modal').style.display = 'none';
+    showDevBanner();
 }
 
 function salvarNome() {
