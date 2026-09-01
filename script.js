@@ -337,18 +337,20 @@ function renderizarBlocoDeTexto(container, nomeBloco) {
 function renderizarTabelaFlashcards(container) {
     container.innerHTML = `
         <button class="btn-adicionar-linha" onclick="adicionarNovaPalavra()">+ New Word</button>
-        <table class="tabela-meet" style="margin-top: 15px;">
-            <thead>
-                <tr>
-                    <th>Word</th>
-                    <th>Category</th>
-                    <th>Meaning</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody id="corpo-tabela-flashcards">
-            </tbody>
-        </table>
+        <div class="flashcards-container">
+            <table class="tabela-flashcards" style="margin-top: 15px;">
+                <thead>
+                    <tr>
+                        <th>Word</th>
+                        <th>Category</th>
+                        <th>Meaning</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="corpo-tabela-flashcards">
+                </tbody>
+            </table>
+        </div>
     `;
     carregarFlashcardsSalvos();
 }
@@ -516,11 +518,13 @@ function carregarNotasMeetSalvas() {
         corpoTabelaNotas.innerHTML += `
             <tr>
                 <td><input type="date" class="input-meet" value="${item.data}" onchange="salvarEdicaoNotaMeet(${index}, 'data', this.value)"></td>
-                <td><input type="text" class="input-meet" value="${item.texto}" onchange="salvarEdicaoNotaMeet(${index}, 'texto', this.value)" placeholder="Write your observation here..."></td>
+                <td><textarea class="textarea-meet" onchange="salvarEdicaoNotaMeet(${index}, 'texto', this.value)" oninput="autoGrowTextarea(this)" placeholder="Write your observation here...">${item.texto}</textarea></td>
                 <td><button class="btn-remover" onclick="removerNotaMeet(${index})">X</button></td>
             </tr>
         `;
     });
+    // Trigger auto-grow for loaded textareas
+    document.querySelectorAll('.textarea-meet').forEach(ta => autoGrowTextarea(ta));
 }
 
 function adicionarNotaMeet() {
@@ -542,6 +546,11 @@ function removerNotaMeet(index) {
     notas.splice(index, 1);
     localStorage.setItem('diarioNotasMeet', JSON.stringify(notas));
     carregarNotasMeetSalvas();
+}
+
+function autoGrowTextarea(textarea) {
+    textarea.style.height = 'auto';
+    textarea.style.height = Math.max(textarea.scrollHeight, 40) + 'px';
 }
 
 // -- Writing Journal --

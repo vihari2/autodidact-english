@@ -325,12 +325,55 @@ textarea {
 }
 
 /* Estilos da Tabela de Flashcards */
+.flashcards-container {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: auto;
+    border: 1px solid #eee;
+    border-radius: 12px;
+}
+
 .tabela-flashcards {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
     display: block;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.flashcards-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.flashcards-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.flashcards-container::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.flashcards-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.tabela-flashcards::-webkit-scrollbar {
+    height: 8px;
+}
+
+.tabela-flashcards::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.tabela-flashcards::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.tabela-flashcards::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .tabela-flashcards th {
@@ -339,11 +382,15 @@ textarea {
     font-weight: normal;
     padding: 10px;
     border-bottom: 2px solid #eee;
+    white-space: nowrap;
+    min-width: 150px;
 }
 
 .tabela-flashcards td {
     padding: 10px;
     border-bottom: 1px solid #eee;
+    white-space: nowrap;
+    min-width: 150px;
 }
 
 .input-tabela {
@@ -388,6 +435,23 @@ textarea {
     margin-bottom: 15px;
     display: block;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.tabela-meet::-webkit-scrollbar {
+    height: 8px;
+}
+
+.tabela-meet::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.tabela-meet::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.tabela-meet::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .tabela-meet th {
@@ -413,6 +477,25 @@ textarea {
 }
 
 .input-meet:focus {
+    border-bottom: 1px solid #1a73e8;
+}
+
+.textarea-meet {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 0.9em;
+    outline: none;
+    resize: none;
+    min-height: 40px;
+    max-height: 200px;
+    font-family: inherit;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 8px;
+    line-height: 1.4;
+}
+
+.textarea-meet:focus {
     border-bottom: 1px solid #1a73e8;
 }
 
