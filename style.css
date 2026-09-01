@@ -8,6 +8,34 @@ body {
     justify-content: center;
 }
 
+.dev-banner {
+    position: fixed;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 8px 14px;
+    font-size: 0.82rem;
+    color: #4b5563;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+    z-index: 2000;
+    text-align: center;
+    max-width: calc(100% - 24px);
+    line-height: 1.4;
+}
+
+.dev-banner a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.dev-banner a:hover {
+    text-decoration: underline;
+}
+
 .bento-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -228,7 +256,15 @@ textarea {
 
 @media (max-width: 768px) {
     body {
-        padding: 20px 12px;
+        padding: 20px 12px 60px;
+    }
+
+    .dev-banner {
+        bottom: 8px;
+        padding: 7px 10px;
+        font-size: 0.75rem;
+        border-radius: 8px;
+        max-width: calc(100% - 16px);
     }
 
     .bento-grid {
