@@ -219,10 +219,80 @@ textarea {
 .btn-fechar:hover { background: #1557b0; }
 
 @media (max-width: 768px) {
-    .bento-grid { grid-template-columns: 1fr; }
-    .flashcards, .profile, .meet, .coursebook, .other, .journal {
+    body {
+        padding: 20px 12px;
+    }
+
+    .bento-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .card {
+        padding: 18px 14px;
+        font-size: 1em;
+        min-height: 120px;
+    }
+
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .flashcards, .profile, .meet, .coursebook, .other, .journal, .foto-gato-card {
         grid-column: 1 / -1;
         grid-row: auto;
+    }
+
+    .auth-panel {
+        max-width: 100%;
+    }
+
+    .auth-box {
+        padding: 18px 14px;
+    }
+
+    .auth-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .auth-form input,
+    .auth-actions button {
+        width: 100%;
+    }
+
+    .auth-actions {
+        flex-direction: column;
+    }
+
+    .modal-content {
+        width: 92%;
+        max-width: 92vw;
+        padding: 20px 16px;
+        max-height: 90vh;
+        overflow: auto;
+    }
+
+    textarea {
+        height: 180px;
+    }
+
+    .tabela-meet,
+    .tabela-flashcards {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .tabela-meet th,
+    .tabela-meet td,
+    .tabela-flashcards th,
+    .tabela-flashcards td {
+        white-space: nowrap;
     }
 }
 
