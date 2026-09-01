@@ -327,10 +327,10 @@ textarea {
 /* Estilos da Tabela de Flashcards */
 .flashcards-container {
     max-height: 500px;
-    overflow-y: auto;
-    overflow-x: auto;
     border: 1px solid #eee;
     border-radius: 12px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .tabela-flashcards {
@@ -338,12 +338,12 @@ textarea {
     border-collapse: collapse;
     margin-bottom: 20px;
     display: block;
-    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
 }
 
 .flashcards-container::-webkit-scrollbar {
-    width: 8px;
+    height: 8px;
 }
 
 .flashcards-container::-webkit-scrollbar-track {
@@ -355,24 +355,6 @@ textarea {
 }
 
 .flashcards-container::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-.tabela-flashcards::-webkit-scrollbar {
-    height: 8px;
-}
-
-.tabela-flashcards::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 4px;
-}
-
-.tabela-flashcards::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 4px;
-}
-
-.tabela-flashcards::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
 
