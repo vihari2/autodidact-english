@@ -65,11 +65,15 @@
 <h2 id="quick-routine">Quick Routine</h2>
 
 <ol>
-  <li>✍️ <strong>Write:</strong> Spend 10–15 minutes writing a daily journal entry; paste it into ChatGPT for feedback.</li>
-  <li>🎙️ <strong>Speak:</strong> Talk out loud for 5–10 minutes in a solo Meet call about your day, plans, or opinions.</li>
   <li>📚 <strong>Study:</strong> Complete one short section of an A1/A2/B1/B2 coursebook.</li>
   <li>🧠 <strong>Flashcards:</strong> Save new vocabulary and review it in the dashboard.</li>
+  <li>✍️ <strong>Write:</strong> Spend 10–15 minutes writing a daily journal entry; paste it into ChatGPT for feedback.</li>
+  <li>🎙️ <strong>Speak:</strong> Talk out loud for 5–10 minutes in a solo Meet call about your day, plans, or opinions.</li>
 </ol>
+
+<p align="center">
+  <img src="imagens/flowchart.png" alt="Dashboard Preview" style="max-width: 600px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+</p>
 
 <h2 id="proof-of-concept-ef-set">Proof of Concept (EF SET)</h2>
 
