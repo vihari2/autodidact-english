@@ -1,7 +1,7 @@
 <div align="center">
   <br>
   <h1>📖 Autodidactic English Framework</h1>
-  <strong>A Simple, Output-First System to Move from A2 to B2 Using Free Tools</strong>
+  <strong>Output-First System to Move from A2 to B2 Using Free Tools</strong>
 </div>
 <br>
 
@@ -17,6 +17,10 @@
 
 <p align="center">
   <strong>Live demo:</strong> <a href="https://vihari2.github.io/autodidact-english/">https://vihari2.github.io/autodidact-english/</a>
+</p>
+
+<p align="center">
+  <img src="imagens/image.png" alt="Dashboard Preview" style="max-width: 600px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 </p>
 
 <h2>What is this Framework?</h2>
@@ -76,7 +80,7 @@
 
 <h2 id="detailed-guides">Detailed Guides</h2>
 
-<p>Check the <code>docs/</code> folder for specific steps:</p>
+<p>Check the <code>please-read/</code> folder for specific steps:</p>
 <ul>
   <li>✍️ <a href="docs/writing-guide.md">Writing &amp; AI Guide</a></li>
   <li>🎙️ <a href="docs/speaking-google-meet.md">Solo Speaking Guide</a></li>
