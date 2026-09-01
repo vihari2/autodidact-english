@@ -1,0 +1,333 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(150px, auto);
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.auth-panel {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto 24px auto;
+}
+
+.auth-box {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.auth-box h3 {
+    margin: 0;
+    color: #1f2937;
+}
+
+.auth-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.auth-form input {
+    flex: 1 1 180px;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    padding: 12px 14px;
+    font-size: 0.95em;
+}
+
+.auth-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.auth-actions button {
+    border: none;
+    border-radius: 10px;
+    padding: 11px 16px;
+    cursor: pointer;
+    font-weight: 600;
+    background: #2563eb;
+    color: white;
+}
+
+.auth-actions button.secondary {
+    background: #e5e7eb;
+    color: #111827;
+}
+
+.auth-actions button.danger {
+    background: #dc2626;
+}
+
+.auth-status {
+    margin: 0;
+    color: #475569;
+    font-size: 0.9em;
+}
+
+.hidden {
+    display: none;
+}
+
+.flashcards { grid-column: 1 / 2; grid-row: 1 / 3; }
+.profile { 
+    grid-column: 2 / 4; 
+    grid-row: 1 / 2; 
+    cursor: default;
+    flex-direction: row;
+    gap: 20px;
+}
+.meet { grid-column: 4 / 5; grid-row: 1 / 3; }
+.coursebook { grid-column: 1 / 3; grid-row: 3 / 4; }
+/* Other Resources fica na coluna do meio (coluna 2, linha 2) */
+.other { 
+    grid-column: 2 / 3; 
+    grid-row: 2 / 3; 
+    font-size: 1em; 
+}
+
+/* O card do Gato fica exatamente ao lado, na coluna 3, linha 2 */
+.foto-gato-card {
+    grid-column: 3 / 4; 
+    grid-row: 2 / 3; 
+    padding: 0 !important;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gato-estilo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s;
+}
+
+.gato-estilo:hover {
+    transform: scale(1.05);
+}
+.journal { grid-column: 3 / 5; grid-row: 3 / 4; }
+
+.foto-perfil {
+    width: 80px;
+    height: 80px;
+    background-color: #e4e6eb;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.foto-perfil:hover { opacity: 0.8; }
+
+.nome-usuario {
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    border-bottom: 2px dashed transparent;
+}
+.nome-usuario:focus { border-bottom: 2px dashed #ccc; }
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content h2 { margin-top: 0; }
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    font-family: inherit;
+    resize: none;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.btn-fechar {
+    background: #1a73e8;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+}
+.btn-fechar:hover { background: #1557b0; }
+
+@media (max-width: 768px) {
+    .bento-grid { grid-template-columns: 1fr; }
+    .flashcards, .profile, .meet, .coursebook, .other, .journal {
+        grid-column: 1 / -1;
+        grid-row: auto;
+    }
+}
+
+/* Estilos da Tabela de Flashcards */
+.tabela-flashcards {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tabela-flashcards th {
+    text-align: left;
+    color: #666;
+    font-weight: normal;
+    padding: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+.tabela-flashcards td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.input-tabela {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 1em;
+    outline: none;
+}
+
+.input-tabela:focus {
+    border-bottom: 1px solid #1a73e8;
+}
+
+.btn-adicionar-linha {
+    background: transparent;
+    color: #1a73e8;
+    border: 1px dashed #1a73e8;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn-adicionar-linha:hover {
+    background: #f0f4f8;
+}
+
+.btn-remover {
+    color: #ff4d4f;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Estilos específicos para a Tabela do Meet */
+.tabela-meet {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.tabela-meet th {
+    text-align: left;
+    color: #666;
+    font-weight: normal;
+    padding: 8px;
+    border-bottom: 2px solid #eee;
+    font-size: 0.9em;
+}
+
+.tabela-meet td {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.input-meet {
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 0.9em;
+    outline: none;
+}
+
+.input-meet:focus {
+    border-bottom: 1px solid #1a73e8;
+}
+
+.bloco-observacoes {
+    margin-top: 15px;
+    border-top: 2px solid #eee;
+    padding-top: 15px;
+}
+
+.bloco-observacoes label {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.bloco-observacoes textarea {
+    height: 100px !important; 
+}
