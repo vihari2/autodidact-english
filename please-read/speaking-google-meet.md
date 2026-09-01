@@ -61,9 +61,7 @@ This guide outlines how to use Google Meet for self-directed speaking practice t
 * **Storytelling:** Tell a story about a funny, strange, or awkward moment that happened to you in the past.
 * **Pros & Cons:** Pick a random topic (e.g., living in a big city) and list two pros and two cons out loud.
 
-## Syncing with Notion
-After completing a session, add an entry to your **Google Meet** Notion table with:
+## Syncing with Website
+After completing a session, add an entry to your **Google Meet** table with:
 * **Date & Duration**
 * **Topic Covered**
-* **New Vocabulary / Phrases Used**
-* **Topic**
