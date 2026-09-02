@@ -4,9 +4,9 @@
 
 | Resource | Category | Purpose |
 | :--- | :--- | :--- |
-| **[Google Translate](https://translate.google.com) / [Context Reverso](https://context.reverso.net/translation/)** | Translation & Reference | Quick reverse-translation, contextual synonyms, and audio pronunciation before speaking. |
-| **[EF SET](https://www.efset.org/pt/)** | Level Assessment | Free 50-minute standardized exam to benchmark your baseline score and track progress. |
-| **[YouGlish](https://youglish.com/)** | Pronunciation & Context | Search any word or phrase to hear real native speakers pronounce it across YouTube videos. |
+| <strong><a href="https://translate.google.com" target="_blank" rel="noopener noreferrer">Google Translate</a> / <a href="https://context.reverso.net/translation/" target="_blank" rel="noopener noreferrer">Context Reverso</a></strong> | Translation & Reference | Quick reverse-translation, contextual synonyms, and audio pronunciation before speaking. |
+| <strong><a href="https://www.efset.org/pt/" target="_blank" rel="noopener noreferrer">EF SET</a></strong> | Level Assessment | Free 50-minute standardized exam to benchmark your baseline score and track progress. |
+| <strong><a href="https://youglish.com/" target="_blank" rel="noopener noreferrer">YouGlish</a></strong> | Pronunciation & Context | Search any word or phrase to hear real native speakers pronounce it across YouTube videos. |
 
 ---
 
@@ -128,8 +128,8 @@
 
 | Website | Purpose |
 | :--- | :--- |
-| **[The Atlantic (World)](https://www.theatlantic.com/world/)** | In-depth journalism, essay-style commentary, and global culture articles. |
-| **[Open Culture](https://www.openculture.com/)** | Free collection of audiobooks, eBooks, online courses, and classic literature. |
+| <strong><a href="https://www.theatlantic.com/world/" target="_blank" rel="noopener noreferrer">The Atlantic (World)</a></strong> | In-depth journalism, essay-style commentary, and global culture articles. |
+| <strong><a href="https://www.openculture.com/" target="_blank" rel="noopener noreferrer">Open Culture</a></strong> | Free collection of audiobooks, eBooks, online courses, and classic literature. |
 
 
 ---
@@ -141,7 +141,7 @@
 ---
 
 ## 🔗 Sources
-* [HC School](https://hcschool.com.br/livros-para-ler-de-acordo-com-seu-nivel-de-ingles/)
-* [The Fools](https://www.thefools.com.br/blog/post/30-livros-em-ingles-para-aprender-de-acordo-com-seu-nivel)
-* [KNN Idiomas](https://www.knnidiomas.com.br/blog-do-aluno/livros-em-ingles)
-* [Gerald R. Sherratt Library](https://library.suu.edu/c.php?g=1003518&p=9570235)
+* <a href="https://hcschool.com.br/livros-para-ler-de-acordo-com-seu-nivel-de-ingles/" target="_blank" rel="noopener noreferrer">HC School</a>
+* <a href="https://www.thefools.com.br/blog/post/30-livros-em-ingles-para-aprender-de-acordo-com-seu-nivel" target="_blank" rel="noopener noreferrer">The Fools</a>
+* <a href="https://www.knnidiomas.com.br/blog-do-aluno/livros-em-ingles" target="_blank" rel="noopener noreferrer">KNN Idiomas</a>
+* <a href="https://library.suu.edu/c.php?g=1003518&p=9570235" target="_blank" rel="noopener noreferrer">Gerald R. Sherratt Library</a>

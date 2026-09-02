@@ -14,7 +14,7 @@ This guide outlines how to use Google Meet for self-directed speaking practice t
 ## Step-by-Step Setup
 
 1. **Start a Call:**
-   * Go to [meet.google.com](https://meet.google.com) and click **New Meeting ➔ Start an instant meeting**.
+   * Go to <a href="https://meet.google.com" target="_blank" rel="noopener noreferrer">meet.google.com</a> and click **New Meeting ➔ Start an instant meeting**.
 2. **Turn On Live Captions:**
    * Click the **Captions (CC)** button at the bottom.
    * *Why?* Live captions help you check if Google understands your pronunciation in real time.

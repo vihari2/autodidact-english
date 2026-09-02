@@ -84,9 +84,13 @@ Copy and paste these exact formulas into Google, replacing `[Book Name]` with th
 
 Instead of random search engines, try searching directly inside these legal digital repositories and open educational archives:
 
-* **[Internet Archive (archive.org):](https://archive.org)** 
-* **[Library Genesis / Anna’s Archive:](https://annas-archive.gl/)** 
-* **[Library Genesis:](https://libgen.bz/)** 
+* <a href="https://archive.org" target="_blank" rel="noopener noreferrer"><strong>Internet Archive (archive.org)</strong></a>
+* <a href="https://annas-archive.gl/" target="_blank" rel="noopener noreferrer"><strong>Library Genesis / Anna’s Archive</strong></a>
+* <a href="https://libgen.bz/" target="_blank" rel="noopener noreferrer"><strong>Library Genesis</strong></a>
+
+### Torrent
+
+Some open educational resources and public-domain books are also shared through torrents. To download them, use <a href="https://www.qbittorrent.org/" target="_blank" rel="noopener noreferrer"><strong>qBittorrent</strong></a>, a free and open-source BitTorrent client.
 
 > **Tip:** You can print and bind these books, or simply read them on your computer as PDFs. 
 <img src="https://i.imgur.com/R5o2R7H.jpeg" alt="Book" width="200">

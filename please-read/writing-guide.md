@@ -51,5 +51,5 @@ A guide designed to help self-taught learners improve their English writing skil
 
 ## Sources & References
 
-* [WriteDiary: What to Write First in Your Journal (50 Prompts for Beginners)](https://writediary.com/guide/how-to-start-journaling-a-beginners-guide-to-daily-writing/what-to-write-first-in-your-journal-50-prompts-for-beginners/)
-* [Wondermind: 25 Writing Prompts to Help You Sort Through Your Feelings](https://www.wondermind.com/article/writing-prompts/)
+* <a href="https://writediary.com/guide/how-to-start-journaling-a-beginners-guide-to-daily-writing/what-to-write-first-in-your-journal-50-prompts-for-beginners/" target="_blank" rel="noopener noreferrer">WriteDiary: What to Write First in Your Journal (50 Prompts for Beginners)</a>
+* <a href="https://www.wondermind.com/article/writing-prompts/" target="_blank" rel="noopener noreferrer">Wondermind: 25 Writing Prompts to Help You Sort Through Your Feelings</a>
