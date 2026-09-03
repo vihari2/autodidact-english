@@ -6,6 +6,7 @@ body {
     padding: 40px 20px;
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 
 .dev-banner {
