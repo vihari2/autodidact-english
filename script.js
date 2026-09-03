@@ -1,4 +1,4 @@
-let blocoAtual = ''; 
+let blocoAtual = '';
 let isRedirecting = false;
 let authInitialized = false;
 
@@ -207,14 +207,14 @@ async function signInWithEmail() {
 
 async function signOut() {
     const client = getSupabaseClient();
-    
+
     if (isSupabaseConfigured() && client?.auth) {
         await client.auth.signOut();
     }
 
     localStorage.removeItem('supabase_user_id');
     updateAuthUI();
-    
+
     setTimeout(() => {
         isRedirecting = true;
         window.location.href = 'index.html';
@@ -294,9 +294,9 @@ function abrirAnotacao(nomeBloco) {
     blocoAtual = nomeBloco;
     hideDevBanner();
     document.getElementById('modal-titulo').innerText = nomeBloco;
-    
+
     const areaConteudo = document.getElementById('modal-conteudo');
-    areaConteudo.innerHTML = ''; 
+    areaConteudo.innerHTML = '';
 
     if (nomeBloco === 'Flashcards') {
         renderizarTabelaFlashcards(areaConteudo);
@@ -327,7 +327,7 @@ function fecharModal() {
             localStorage.setItem('notas_' + blocoAtual, campoTexto.value);
         }
     }
-    
+
     document.getElementById('modal').style.display = 'none';
     showDevBanner();
 }
@@ -374,7 +374,7 @@ function renderizarTabelaFlashcards(container) {
 function carregarFlashcardsSalvos() {
     const corpoTabela = document.getElementById('corpo-tabela-flashcards');
     let flashcards = JSON.parse(localStorage.getItem('meusFlashcards')) || [];
-    
+
     corpoTabela.innerHTML = '';
     flashcards.forEach((item, index) => {
         corpoTabela.innerHTML += `
@@ -413,13 +413,22 @@ function renderizarOtherResources(container) {
     container.innerHTML = `
         <div style="max-height: 450px; overflow-y: auto; padding-right: 10px; font-size: 0.9em;">
             <h3 style="color: #1a73e8; margin-top: 0;">🌐 Online Tools & Utilities</h3>
-            <table class="tabela-meet" style="margin-bottom: 20px;">
-                <tr><th>Resource</th><th>Purpose</th></tr>
-                <tr><td><b>Google Translate / Reverso</b></td><td>Quick reverse-translation & synonyms.</td></tr>
-                <tr><td><b>EF SET</b></td><td>Free 50-minute level assessment exam.</td></tr>
-                <tr><td><b>YouGlish</b></td><td>Hear real native pronunciation via YouTube.</td></tr>
-            </table>
-
+             
+              <table class="tabela-meet" style="margin-bottom: 20px;">
+                    <tr><th>Resource</th><th>Purpose</th></tr>
+                    <tr>
+                        <td><b><a href="https://translate.google.com" target="_blank" style="color: #1a73e8; text-decoration: none;">Google Translate</a> / <a href="https://reverso.net" target="_blank" style="color: #1a73e8; text-decoration: none;">Reverso</a></b></td>
+                        <td>Quick reverse-translation & synonyms.</td>
+                    </tr>
+                    <tr>
+                        <td><b><a href="https://www.efset.org" target="_blank" style="color: #1a73e8; text-decoration: none;">EF SET</a></b></td>
+                        <td>Free 50-minute level assessment exam.</td>
+                    </tr>
+                    <tr>
+                        <td><b><a href="https://youglish.com" target="_blank" style="color: #1a73e8; text-decoration: none;">YouGlish</a></b></td>
+                        <td>Hear real native pronunciation via YouTube.</td>
+                    </tr>
+                </table>
             <h3 style="color: #1a73e8;">📖 English Books by CEFR Level</h3>
             <table class="tabela-meet" style="margin-bottom: 20px;">
                 <tr><th>Level</th><th>Title</th></tr>
@@ -474,7 +483,7 @@ function renderizarGoogleMeet(container) {
             </table>
         </div>
     `;
-    
+
     carregarMeetSalvos();
     carregarNotasMeetSalvas();
 }
@@ -483,7 +492,7 @@ function carregarMeetSalvos() {
     const corpoTabela = document.getElementById('corpo-tabela-meet');
     if (!corpoTabela) return;
     let sessoes = JSON.parse(localStorage.getItem('meuMeet')) || [];
-    
+
     corpoTabela.innerHTML = '';
     sessoes.forEach((item, index) => {
         corpoTabela.innerHTML += `
@@ -528,7 +537,7 @@ function carregarNotasMeetSalvas() {
     const corpoTabelaNotas = document.getElementById('corpo-tabela-notas-meet');
     if (!corpoTabelaNotas) return;
     let notas = JSON.parse(localStorage.getItem('diarioNotasMeet')) || [];
-    
+
     corpoTabelaNotas.innerHTML = '';
     notas.forEach((item, index) => {
         corpoTabelaNotas.innerHTML += `
@@ -594,7 +603,7 @@ function carregarJournalSalvo() {
     const corpoTabela = document.getElementById('corpo-tabela-journal');
     if (!corpoTabela) return;
     let registros = JSON.parse(localStorage.getItem('meuWritingJournal')) || [];
-    
+
     corpoTabela.innerHTML = '';
     registros.forEach((item, index) => {
         corpoTabela.innerHTML += `
@@ -659,7 +668,7 @@ function carregarCoursebookSalvo() {
     const corpoTabela = document.getElementById('corpo-tabela-coursebook');
     if (!corpoTabela) return;
     let livros = JSON.parse(localStorage.getItem('meuCoursebook')) || [];
-    
+
     corpoTabela.innerHTML = '';
     livros.forEach((item, index) => {
         corpoTabela.innerHTML += `
@@ -718,7 +727,7 @@ function loadProfileData() {
 
 function redirectIfNeeded() {
     if (isRedirecting) return;
-    
+
     const isLoginPage = window.location.pathname.endsWith('index.html');
     const isLoggedIn = !!localStorage.getItem('supabase_user_id');
 
@@ -746,12 +755,12 @@ window.addEventListener('load', () => {
 if (fotoImg && uploadFoto) {
     fotoImg.addEventListener('click', () => uploadFoto.click());
 
-    uploadFoto.addEventListener('change', async function(e) {
+    uploadFoto.addEventListener('change', async function (e) {
         const file = e.target.files[0];
         if (!file) return;
 
         const reader = new FileReader();
-        reader.onload = function(event) {
+        reader.onload = function (event) {
             const dataUrl = event.target.result;
             fotoImg.src = dataUrl;
             localStorage.setItem('fotoPerfilCustom', dataUrl);
@@ -771,11 +780,11 @@ const uploadGato = document.getElementById('upload-gato');
 if (imgGato && uploadGato) {
     imgGato.addEventListener('click', () => uploadGato.click());
 
-    uploadGato.addEventListener('change', function(e) {
+    uploadGato.addEventListener('change', function (e) {
         const file = e.target.files[0];
         if (file) {
             const reader = new FileReader();
-            reader.onload = function(event) {
+            reader.onload = function (event) {
                 const dataUrl = event.target.result;
                 imgGato.src = dataUrl;
                 localStorage.setItem('fotoGatoCustom', dataUrl);
