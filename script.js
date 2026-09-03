@@ -379,9 +379,9 @@ function carregarFlashcardsSalvos() {
     flashcards.forEach((item, index) => {
         corpoTabela.innerHTML += `
             <tr>
-                <td><input type="text" class="input-meet" value="${item.palavra}" onchange="salvarEdicaoFlashcard(${index}, 'palavra', this.value)" placeholder="Ex: blood"></td>
-                <td><input type="text" class="input-meet" value="${item.categoria}" onchange="salvarEdicaoFlashcard(${index}, 'categoria', this.value)" placeholder="Ex: Vocabulary"></td>
-                <td><input type="text" class="input-meet" value="${item.traducao}" onchange="salvarEdicaoFlashcard(${index}, 'traducao', this.value)" placeholder="Ex: blood"></td>
+                <td><input type="text" class="input-meet" value="${item.word || ''}" onchange="salvarEdicaoFlashcard(${index}, 'word', this.value)" placeholder="Ex: blood"></td>
+                <td><input type="text" class="input-meet" value="${item.category || ''}" onchange="salvarEdicaoFlashcard(${index}, 'category', this.value)" placeholder="Ex: Vocabulary"></td>
+                <td><input type="text" class="input-meet" value="${item.meaning || ''}" onchange="salvarEdicaoFlashcard(${index}, 'meaning', this.value)" placeholder="Ex: sangue"></td>
                 <td><button class="btn-remover" onclick="removerFlashcard(${index})">X</button></td>
             </tr>
         `;
@@ -390,7 +390,7 @@ function carregarFlashcardsSalvos() {
 
 function adicionarNovaPalavra() {
     let flashcards = JSON.parse(localStorage.getItem('meusFlashcards')) || [];
-    flashcards.push({ palavra: '', categoria: '', traducao: '' });
+    flashcards.push({ word: '', category: '', meaning: '' });
     localStorage.setItem('meusFlashcards', JSON.stringify(flashcards));
     carregarFlashcardsSalvos();
 }
