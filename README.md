@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img src="images/image.png" alt="Dashboard Preview" style="max-width: 600px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <img src="Images/image.png" alt="Dashboard Preview" style="max-width: 600px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 </p>
 
 <h2>What is this Framework?</h2>
@@ -72,7 +72,7 @@
 </ol>
 
 <p align="center">
-  <img src="images/flowchart.png" alt="Dashboard Preview" style="max-width: 600px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+  <img src="Images/flowchart.png" alt="Dashboard Preview" style="max-width: 600px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
 </p>
 
 <h2 id="proof-of-concept-ef-set">Proof of Concept (EF SET)</h2>
