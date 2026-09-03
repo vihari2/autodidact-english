@@ -67,10 +67,60 @@
         </div>
     </div>
 
+    <button id="btn-config-bg" title="Change Background" style="
+    position: fixed;
+    bottom: 70px; /* Um pouco acima do rodapé */
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    z-index: 1000;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2em;
+    color: #555;
+    ">
+    ⚙️
+    </button>
+
+
+    <div id="modal-config-bg" style="
+    display: none;
+    position: fixed; bottom: 120px; right: 20px;
+    width: 250px; background: white;
+    padding: 20px; border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
+    ">
+    <h4 style="margin: 0 0 15px 0;">Customize Background</h4>
+    
+    <label style="display: block; margin-bottom: 10px;">
+        <input type="radio" name="bg-type" value="color" checked onclick="toggleBgOption('color')"> Cor Sólida Padrão
+    </label>
+    
+    <label style="display: block; margin-bottom: 10px;">
+        <input type="radio" name="bg-type" value="image" onclick="toggleBgOption('image')"> Upload de Imagem
+    </label>
+    
+    <!-- Input de upload (escondido inicialmente) -->
+    <div id="upload-container" style="display: none; margin-top: 10px;">
+        <input type="file" id="img-upload-input" accept="image/png, image/jpeg" onchange="handleImageUpload(this)">
+        <small style="display: block; color: #888; margin-top: 5px;">Max 5MB (PNG/JPG)</small>
+    </div>
+    
+    <button onclick="closeConfigModal()" style="
+        width: 100%; padding: 8px; background: #1a73e8; color: white;
+        border: none; border-radius: 4px; margin-top: 15px; cursor: pointer;
+    ">Fechar</button>
+    </div>
     <!-- Supabase -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <!-- Conectando o arquivo de lógica (JavaScript) -->
     <script src="script.js"></script>
+    <!-- Botão flutuante de configurações -->
 </body>
 
 </html>

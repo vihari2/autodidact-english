@@ -88,6 +88,86 @@ async function loadProfileFromSupabase() {
     }
 }
 
+// --- Inicialização (carregar background salvo) ---
+window.onload = function() {
+    aplicarBackgroundSalvo();
+    // ... suas outras funções de init, se tiver ...
+}
+
+function aplicarBackgroundSalvo() {
+    const tipoSalvo = localStorage.getItem('bg_type');
+    const valorSalvo = localStorage.getItem('bg_value');
+    
+    if (tipoSalvo === 'image' && valorSalvo) {
+        document.body.style.backgroundImage = `url(${valorSalvo})`;
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundRepeat = 'no-repeat';
+    } else {
+        // Se for cor ou nada salvo, reseta para a cor padrão do body (a que vc usa na imagem 3)
+        document.body.style.backgroundColor = '#F0F2F5'; 
+        document.body.style.backgroundImage = 'none';
+    }
+}
+
+// --- Interatividade ---
+const btnConfig = document.getElementById('btn-config-bg');
+
+if (btnConfig) {
+    btnConfig.addEventListener('click', function() {
+        const modal = document.getElementById('modal-config-bg');
+        if (modal) {
+            modal.style.display = modal.style.display === 'none' ? 'block' : 'none';
+        }
+    });
+}
+
+function closeConfigModal() {
+    document.getElementById('modal-config-bg').style.display = 'none';
+}
+
+function toggleBgOption(option) {
+    const uploadContainer = document.getElementById('upload-container');
+    if (option === 'image') {
+        uploadContainer.style.display = 'block';
+    } else {
+        uploadContainer.style.display = 'none';
+        // Remove a imagem e salva que é cor
+        localStorage.removeItem('bg_value');
+        localStorage.setItem('bg_type', 'color');
+        aplicarBackgroundSalvo();
+    }
+}
+
+// --- Mágica do Upload (Base64) ---
+function handleImageUpload(input) {
+    if (input.files && input.files[0]) {
+        const file = input.files[0];
+        
+        // Verificação simples de tamanho (ex: 5MB)
+        if (file.size > 5 * 1024 * 1024) {
+            alert("A imagem é muito grande. Máximo 5MB.");
+            input.value = ""; // Limpa o input
+            return;
+        }
+        
+        const reader = new FileReader();
+        
+        reader.onload = function(e) {
+            const base64Image = e.target.result;
+            
+            // Salva no localStorage
+            localStorage.setItem('bg_type', 'image');
+            localStorage.setItem('bg_value', base64Image);
+            
+            // Aplica imediatamente
+            aplicarBackgroundSalvo();
+        }
+        
+        reader.readAsDataURL(file); // Converte a imagem para Base64
+    }
+}
+
 async function saveNameToSupabase() {
     const userId = getCurrentUserId();
     if (!userId || !isSupabaseConfigured()) return;
@@ -793,3 +873,4 @@ if (imgGato && uploadGato) {
         }
     });
 }
+
